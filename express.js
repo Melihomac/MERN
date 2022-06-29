@@ -196,3 +196,62 @@
 // })
 
 //---------------
+
+//serverdaki resimleri çeken kod bloğu
+// var express = require('express');
+// var fs = require('fs');
+// var app = express();
+// var fileupload = require('express-fileupload');
+// var cors = require('cors');
+// var bodyParser = require('body-parser');
+// var morgan = require('morgan');
+// var _ = require('lodash');
+
+// app.use(fileupload({
+//   createParentPath:true
+// }));
+
+// app.use(cors());
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({extended:true}));
+// app.use(morgan('dev'));
+
+// const port = process.env.PORT || 3000;
+
+// app.get('/upload-avatar', async (req, res) => {
+//   try {
+//       if(!req.files) {
+//           res.send({
+//               status: false,
+//               message: 'No file uploaded'
+//           });
+//       } else {
+//           //Use the name of the input field (i.e. "avatar") to retrieve the uploaded file
+//           let avatar = req.files.avatar;
+          
+//           //Use the mv() method to place the file in upload directory (i.e. "uploads")
+//           avatar.mv('./uploads/' + avatar.name);
+
+//           //send response
+//           res.send({
+//               status: true,
+//               message: 'File is uploaded',
+//               data: {
+//                   name: avatar.name,
+//                   mimetype: avatar.mimetype,
+//                   size: avatar.size
+//               }
+//           });
+//       }
+//   } catch (err) {
+//       res.status(500).send(err);
+//   }
+// });
+
+// var server = app.listen('8081', function(){
+//   var host = server.address().address;
+//   var port = server.address().port;
+//   console.log('http://%s:%s', host, port);
+// });
+
+//---------------
