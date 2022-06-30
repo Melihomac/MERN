@@ -18,7 +18,8 @@
     "morgan": "~1.9.1",
     "mosca": "^2.8.3",
     "mqtt": "^4.3.7",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.2"
   },
   "description": "js mqtt",
   "main": "app.js",

@@ -1,4 +1,3 @@
-
 //Hello world uygulaması. Request burada http, body ve header gibilerini çağırmaya yarıyor.
 //Response ise gelen requestleri(istekleri) alıp buna tepki olarak HTTP response yapıyor.
 // var express = require('express');
@@ -134,7 +133,7 @@
 // var app = express();
 // var cookieParser = require('cookie-parser');
 
-// app.use(cookieParser());
+// app.use("user",cookieParser());
 
 // app.get('/', function(req, res){
 //   console.log("Cookies: ", req.cookies);
