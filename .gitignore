@@ -1,0 +1,10 @@
+/.idea
+/package-lock.json
+/node_modules
+/public
+/routes
+/views
+/mynewfile.txt
+/output.txt
+/output.txt.gz
+/out
