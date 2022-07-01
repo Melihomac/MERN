@@ -1,8 +1,8 @@
 *.txt
-./node_modules
-.DS_store/
-.public/
-.routes/
-.views/
+node_modules/
+DS_store/
+public/
+routes/
+views/
 *.json
-*gz
+*.gz
